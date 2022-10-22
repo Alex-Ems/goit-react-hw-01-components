@@ -5,3 +5,7 @@ export const Title = styled.h2`
   text-align: center;
   font-size: 30px;
 `;
+
+export const Section = styled.section`
+padding: 30px;
+`

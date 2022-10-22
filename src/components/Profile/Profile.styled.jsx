@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const Container = styled.div`
+export const ContainerCard = styled.div`
   background-color: #9ec7f8;
   width: 200px;
   border: 1px solid grey;

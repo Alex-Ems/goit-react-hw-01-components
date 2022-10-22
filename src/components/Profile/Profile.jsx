@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import {
-  Container,
+  ContainerCard,
   ProfileCard,
   ProfileImage,
   ProfileName,
@@ -18,7 +18,7 @@ export default function Profile({
   stats: { followers, views, likes },
 }) {
   return (
-    <Container>
+    <ContainerCard>
       <ProfileCard>
         <ProfileImage src={avatar} alt="User avatar" width={180} />
         <ProfileName>{username}</ProfileName>
@@ -40,7 +40,7 @@ export default function Profile({
           <StatsQuantity> {likes}</StatsQuantity>
         </StatsItem>
       </StatsList>
-    </Container>
+    </ContainerCard>
   );
 }
 Profile.propTypes = {

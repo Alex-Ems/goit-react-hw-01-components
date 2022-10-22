@@ -1,13 +1,13 @@
 
 import PropTypes from 'prop-types';
-import { Title } from './/Statistics.styled';
+import { Title, Section } from './/Statistics.styled';
 
 export default function Stats({ title, children }) {
   return (
-    <section>
+    <Section>
       {title && <Title>{title}</Title>}
       {children}
-    </section>
+    </Section>
   );
 }
 

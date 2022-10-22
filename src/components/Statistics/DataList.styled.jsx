@@ -5,6 +5,7 @@ export const StatsList = styled.ul`
   justify-content: center;
   display: flex;
   padding: 0;
+  margin: 0 auto;
 `;
 
 export const DataItem = styled.li`
